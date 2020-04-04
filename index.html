@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<title>Padajuci meni</title>
+</head>
+<body>
+    <script>
+        var a=parseFloat(prompt("Unesite prvi broj:"));
+        var c=prompt("Unesite operaciju iz opsega +,-,*,/");
+        var b=parseFloat(prompt("Unesite drugi broj:"));
+        var z;
+        if(c=="+"){
+             z=a+b;
+             alert("Rezultat je:"+""+z)
+        }
+        else if(c=="-"){
+            z=a-b;
+            alert("Rezultat je:"+""+z)
+        }
+        else if(c=="*"){
+            z=a*b;
+            alert("Rezultat je:"+""+z)        }
+        else if(c=="/"){
+            z=a/b;
+            alert("Rezultat je:"+""+z)         }
+         else{
+            alert("Niste uneli adekvatan znak za operaciju")         }
+    </script>
+        
+</body>
+</html>
